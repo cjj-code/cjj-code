@@ -1,6 +1,6 @@
 ---
 title: Ubuntu开启root账户
-date: 2022-07-24 09:00:00
+date: 2021-07-24 09:00:00
 cover: /images/posts/Ubuntu开启root账户/2022-09-11-00-34-35.png 
 
 tags:

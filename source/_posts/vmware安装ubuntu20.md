@@ -1,6 +1,6 @@
 ---
 title: vmware安装ubuntu20
-date: 2021-05-02 00:06:10
+date: 2021-07-24 00:09:10
 cover: /images/posts/vmware安装ubuntu20/2022-09-11-00-11-37.png
 tags:
     - 虚拟机
