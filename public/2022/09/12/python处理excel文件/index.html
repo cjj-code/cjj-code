@@ -1,18 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>python处理excel文件 | 雨后=_=的个人站点</title><meta name="keywords" content="python,excel"><meta name="author" content="CJJ"><meta name="copyright" content="CJJ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="常用库 openpyxl：目前最常用excel处理第三方库 xlrd：读取excel的库，只有1.2.0之前的版本支持xlsx格式 pandas：数据分析专用，可以处理Excel文件  概述介绍openpyxl 是一个 Python 库，用于读取&#x2F;写入 Excel 2010 xlsx&#x2F;xlsm&#x2F;xltx&#x2F;xltm 文件。 三个概念：Workbook,Shee">
-<meta property="og:type" content="article">
-<meta property="og:title" content="python处理excel文件">
-<meta property="og:url" content="http://127.0.0.1:8000/2022/09/12/python%E5%A4%84%E7%90%86excel%E6%96%87%E4%BB%B6/index.html">
-<meta property="og:site_name" content="雨后&#x3D;_&#x3D;的个人站点">
-<meta property="og:description" content="常用库 openpyxl：目前最常用excel处理第三方库 xlrd：读取excel的库，只有1.2.0之前的版本支持xlsx格式 pandas：数据分析专用，可以处理Excel文件  概述介绍openpyxl 是一个 Python 库，用于读取&#x2F;写入 Excel 2010 xlsx&#x2F;xlsm&#x2F;xltx&#x2F;xltm 文件。 三个概念：Workbook,Shee">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://127.0.0.1:8000/images/posts/python%E5%A4%84%E7%90%86excel%E6%96%87%E4%BB%B6/2022-09-12-20-31-33.png">
-<meta property="article:published_time" content="2022-09-12T12:21:20.000Z">
-<meta property="article:modified_time" content="2022-09-14T16:07:49.305Z">
-<meta property="article:author" content="CJJ">
-<meta property="article:tag" content="python">
-<meta property="article:tag" content="excel">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://127.0.0.1:8000/images/posts/python%E5%A4%84%E7%90%86excel%E6%96%87%E4%BB%B6/2022-09-12-20-31-33.png"><link rel="shortcut icon" href="/images/site/favicon.jpg"><link rel="canonical" href="http://127.0.0.1:8000/2022/09/12/python%E5%A4%84%E7%90%86excel%E6%96%87%E4%BB%B6/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>python处理excel文件 | 雨后=_=的个人站点</title><meta name="author" content="CJJ"><meta name="copyright" content="CJJ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="常用库 openpyxl：目前最常用excel处理第三方库 xlrd：读取excel的库，只有1.2.0之前的版本支持xlsx格式 pandas：数据分析专用，可以处理Excel文件  概述介绍openpyxl 是一个 Python 库，用于读取&amp;#x2F;写入 Excel 2010 xlsx&amp;amp;#x"><link rel="shortcut icon" href="/images/site/favicon.jpg"><link rel="canonical" href="http://127.0.0.1:8000/2022/09/12/python%E5%A4%84%E7%90%86excel%E6%96%87%E4%BB%B6/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: undefined,

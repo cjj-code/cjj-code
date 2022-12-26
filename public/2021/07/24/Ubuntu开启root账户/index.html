@@ -1,18 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Ubuntu开启root账户 | 雨后=_=的个人站点</title><meta name="keywords" content="linux,ubuntu"><meta name="author" content="CJJ"><meta name="copyright" content="CJJ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="创建root账户密码&#x2F;images&#x2F;posts&#x2F;Ubuntu开启root账户&#x2F;2022-09-11-00-17-39.png  打开命令行，输入如下命令 1sudo passwd root  输入当前用户密码，回车   提示输入新的密码，这里其实是在设置root账户密码，回车后需再输入一次确认    修改登录相关配置文件 修改 50-ubuntu.conf">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Ubuntu开启root账户">
-<meta property="og:url" content="http://127.0.0.1:8000/2021/07/24/Ubuntu%E5%BC%80%E5%90%AFroot%E8%B4%A6%E6%88%B7/index.html">
-<meta property="og:site_name" content="雨后&#x3D;_&#x3D;的个人站点">
-<meta property="og:description" content="创建root账户密码&#x2F;images&#x2F;posts&#x2F;Ubuntu开启root账户&#x2F;2022-09-11-00-17-39.png  打开命令行，输入如下命令 1sudo passwd root  输入当前用户密码，回车   提示输入新的密码，这里其实是在设置root账户密码，回车后需再输入一次确认    修改登录相关配置文件 修改 50-ubuntu.conf">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://127.0.0.1:8000/images/posts/Ubuntu%E5%BC%80%E5%90%AFroot%E8%B4%A6%E6%88%B7/2022-09-11-00-34-35.png">
-<meta property="article:published_time" content="2021-07-24T01:00:00.000Z">
-<meta property="article:modified_time" content="2022-09-11T06:53:04.198Z">
-<meta property="article:author" content="CJJ">
-<meta property="article:tag" content="linux">
-<meta property="article:tag" content="ubuntu">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://127.0.0.1:8000/images/posts/Ubuntu%E5%BC%80%E5%90%AFroot%E8%B4%A6%E6%88%B7/2022-09-11-00-34-35.png"><link rel="shortcut icon" href="/images/site/favicon.jpg"><link rel="canonical" href="http://127.0.0.1:8000/2021/07/24/Ubuntu%E5%BC%80%E5%90%AFroot%E8%B4%A6%E6%88%B7/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Ubuntu开启root账户 | 雨后=_=的个人站点</title><meta name="author" content="CJJ"><meta name="copyright" content="CJJ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="创建root账户密码&amp;#x2F;images&amp;#x2F;posts&amp;#x2F;Ubuntu开启root账户&amp;#x2F;2022-09-11-00-17-39.png  打开命令行，输入如下命令 1sudo passwd root  输入当前用户密码，回车   提示输入新的密码，这里其实是在设置roo"><link rel="shortcut icon" href="/images/site/favicon.jpg"><link rel="canonical" href="http://127.0.0.1:8000/2021/07/24/Ubuntu%E5%BC%80%E5%90%AFroot%E8%B4%A6%E6%88%B7/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: undefined,
